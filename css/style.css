@@ -1,0 +1,111 @@
+body{
+    background-color: #262936;
+}
+.nav-bg{
+    background-color: rgb(30,32,43);
+}
+.navbar .navbar-nav .nav-link.active
+{
+    border: 2px solid #009ad8;
+    color: #009ad8;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.navbar-nav{
+    gap: 10px;
+    justify-content: flex-end
+}
+.navbar ul li{
+    width: 15%;
+}
+.navbar ul li a{
+    color: aliceblue;
+    font-size: 14px;
+    text-align: center;
+    padding: 4px;
+}
+.navbar ul li a:hover{
+    border: 2px solid #009ad8;
+    color: #009ad8;
+    border-radius: 20px;
+}
+.nav-link:focus {
+    border: 2px solid #009ad8;
+    color: #009ad8;
+    border-radius: 20px;
+}
+.navbar-brand p{
+    font-size: 12px;
+}
+.home{
+    background-image:linear-gradient( rgba(0,0,0,0.2) ,rgba(0,0,0,0.2) ) , url(../images/banner.png);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: rgb(30,32,43);
+}
+.find-location #search{
+    width: 100%;
+    padding: 15px;
+    background: #1e202b;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+.find-location #search:focus-visible{
+    outline-style:none !important;
+}
+.find-location #submit{
+    border: none;
+    background: #009ad8;
+    padding: 0px 50px;
+    border-radius: 30px;
+    color: white;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+}
+.header{
+    background-color:#1e202b ;
+    color: rgb(191, 193, 200);
+    
+}
+.header2{
+    background-color:#1a1b25;
+    color: rgb(191, 193, 200);
+}
+.forcast-content2{
+    background-color: #1e202b;
+    color: rgb(191, 193, 200);
+}
+.forcast-content{
+    background-color:#262936 ;
+    color: rgb(191, 193, 200);
+}
+.degreeToday{
+    font-size: 70px !important;
+}
+.degree span{
+    top: -30px;
+}
+.degree img{
+    width: 80px;
+    height: 80px;
+}
+.degrees span{
+    top: -5px;
+}
+.icon i {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: #009ad8;
+    background-color:#1e202b;
+}
+.icon i:hover{
+    background-color:#009ad8;
+    color:aliceblue;
+}
